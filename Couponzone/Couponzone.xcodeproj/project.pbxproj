@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394D626CFFF060064FA1B /* AppDelegate.swift */; };
+		887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394D826CFFF060064FA1B /* SceneDelegate.swift */; };
+		887394DB26CFFF060064FA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394DA26CFFF060064FA1B /* ViewController.swift */; };
+		887394DE26CFFF060064FA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887394DC26CFFF060064FA1B /* Main.storyboard */; };
+		887394E126CFFF060064FA1B /* Couponzone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 887394DF26CFFF060064FA1B /* Couponzone.xcdatamodeld */; };
+		887394E326CFFF080064FA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 887394E226CFFF080064FA1B /* Assets.xcassets */; };
+		887394E626CFFF080064FA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887394E426CFFF080064FA1B /* LaunchScreen.storyboard */; };
+		887394F126CFFF080064FA1B /* CouponzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394F026CFFF080064FA1B /* CouponzoneTests.swift */; };
+		887394FC26CFFF080064FA1B /* CouponzoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394FB26CFFF080064FA1B /* CouponzoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		887394ED26CFFF080064FA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887394CB26CFFF060064FA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887394D226CFFF060064FA1B;
+			remoteInfo = Couponzone;
+		};
+		887394F826CFFF080064FA1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 887394CB26CFFF060064FA1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 887394D226CFFF060064FA1B;
+			remoteInfo = Couponzone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		887394D326CFFF060064FA1B /* Couponzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Couponzone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		887394D626CFFF060064FA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		887394D826CFFF060064FA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		887394DA26CFFF060064FA1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		887394DD26CFFF060064FA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		887394E026CFFF060064FA1B /* Couponzone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Couponzone.xcdatamodel; sourceTree = "<group>"; };
+		887394E226CFFF080064FA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		887394E526CFFF080064FA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		887394E726CFFF080064FA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887394EC26CFFF080064FA1B /* CouponzoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponzoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887394F026CFFF080064FA1B /* CouponzoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponzoneTests.swift; sourceTree = "<group>"; };
+		887394F226CFFF080064FA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		887394F726CFFF080064FA1B /* CouponzoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponzoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		887394FB26CFFF080064FA1B /* CouponzoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponzoneUITests.swift; sourceTree = "<group>"; };
+		887394FD26CFFF080064FA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		887394D026CFFF060064FA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394E926CFFF080064FA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394F426CFFF080064FA1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		887394CA26CFFF060064FA1B = {
+			isa = PBXGroup;
+			children = (
+				887394D526CFFF060064FA1B /* Couponzone */,
+				887394EF26CFFF080064FA1B /* CouponzoneTests */,
+				887394FA26CFFF080064FA1B /* CouponzoneUITests */,
+				887394D426CFFF060064FA1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		887394D426CFFF060064FA1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				887394D326CFFF060064FA1B /* Couponzone.app */,
+				887394EC26CFFF080064FA1B /* CouponzoneTests.xctest */,
+				887394F726CFFF080064FA1B /* CouponzoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		887394D526CFFF060064FA1B /* Couponzone */ = {
+			isa = PBXGroup;
+			children = (
+				887394D626CFFF060064FA1B /* AppDelegate.swift */,
+				887394D826CFFF060064FA1B /* SceneDelegate.swift */,
+				887394DA26CFFF060064FA1B /* ViewController.swift */,
+				887394DC26CFFF060064FA1B /* Main.storyboard */,
+				887394E226CFFF080064FA1B /* Assets.xcassets */,
+				887394E426CFFF080064FA1B /* LaunchScreen.storyboard */,
+				887394E726CFFF080064FA1B /* Info.plist */,
+				887394DF26CFFF060064FA1B /* Couponzone.xcdatamodeld */,
+			);
+			path = Couponzone;
+			sourceTree = "<group>";
+		};
+		887394EF26CFFF080064FA1B /* CouponzoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				887394F026CFFF080064FA1B /* CouponzoneTests.swift */,
+				887394F226CFFF080064FA1B /* Info.plist */,
+			);
+			path = CouponzoneTests;
+			sourceTree = "<group>";
+		};
+		887394FA26CFFF080064FA1B /* CouponzoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				887394FB26CFFF080064FA1B /* CouponzoneUITests.swift */,
+				887394FD26CFFF080064FA1B /* Info.plist */,
+			);
+			path = CouponzoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		887394D226CFFF060064FA1B /* Couponzone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8873950026CFFF080064FA1B /* Build configuration list for PBXNativeTarget "Couponzone" */;
+			buildPhases = (
+				887394CF26CFFF060064FA1B /* Sources */,
+				887394D026CFFF060064FA1B /* Frameworks */,
+				887394D126CFFF060064FA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Couponzone;
+			productName = Couponzone;
+			productReference = 887394D326CFFF060064FA1B /* Couponzone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		887394EB26CFFF080064FA1B /* CouponzoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8873950326CFFF080064FA1B /* Build configuration list for PBXNativeTarget "CouponzoneTests" */;
+			buildPhases = (
+				887394E826CFFF080064FA1B /* Sources */,
+				887394E926CFFF080064FA1B /* Frameworks */,
+				887394EA26CFFF080064FA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887394EE26CFFF080064FA1B /* PBXTargetDependency */,
+			);
+			name = CouponzoneTests;
+			productName = CouponzoneTests;
+			productReference = 887394EC26CFFF080064FA1B /* CouponzoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		887394F626CFFF080064FA1B /* CouponzoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8873950626CFFF080064FA1B /* Build configuration list for PBXNativeTarget "CouponzoneUITests" */;
+			buildPhases = (
+				887394F326CFFF080064FA1B /* Sources */,
+				887394F426CFFF080064FA1B /* Frameworks */,
+				887394F526CFFF080064FA1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				887394F926CFFF080064FA1B /* PBXTargetDependency */,
+			);
+			name = CouponzoneUITests;
+			productName = CouponzoneUITests;
+			productReference = 887394F726CFFF080064FA1B /* CouponzoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		887394CB26CFFF060064FA1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					887394D226CFFF060064FA1B = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					887394EB26CFFF080064FA1B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 887394D226CFFF060064FA1B;
+					};
+					887394F626CFFF080064FA1B = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 887394D226CFFF060064FA1B;
+					};
+				};
+			};
+			buildConfigurationList = 887394CE26CFFF060064FA1B /* Build configuration list for PBXProject "Couponzone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 887394CA26CFFF060064FA1B;
+			productRefGroup = 887394D426CFFF060064FA1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				887394D226CFFF060064FA1B /* Couponzone */,
+				887394EB26CFFF080064FA1B /* CouponzoneTests */,
+				887394F626CFFF080064FA1B /* CouponzoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		887394D126CFFF060064FA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887394E626CFFF080064FA1B /* LaunchScreen.storyboard in Resources */,
+				887394E326CFFF080064FA1B /* Assets.xcassets in Resources */,
+				887394DE26CFFF060064FA1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394EA26CFFF080064FA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394F526CFFF080064FA1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		887394CF26CFFF060064FA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887394DB26CFFF060064FA1B /* ViewController.swift in Sources */,
+				887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */,
+				887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */,
+				887394E126CFFF060064FA1B /* Couponzone.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394E826CFFF080064FA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887394F126CFFF080064FA1B /* CouponzoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		887394F326CFFF080064FA1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				887394FC26CFFF080064FA1B /* CouponzoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		887394EE26CFFF080064FA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887394D226CFFF060064FA1B /* Couponzone */;
+			targetProxy = 887394ED26CFFF080064FA1B /* PBXContainerItemProxy */;
+		};
+		887394F926CFFF080064FA1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 887394D226CFFF060064FA1B /* Couponzone */;
+			targetProxy = 887394F826CFFF080064FA1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		887394DC26CFFF060064FA1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887394DD26CFFF060064FA1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		887394E426CFFF080064FA1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				887394E526CFFF080064FA1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		887394FE26CFFF080064FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		887394FF26CFFF080064FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8873950126CFFF080064FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = Couponzone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Couponzone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8873950226CFFF080064FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = Couponzone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Couponzone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8873950426CFFF080064FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = CouponzoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CouponzoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Couponzone.app/Couponzone";
+			};
+			name = Debug;
+		};
+		8873950526CFFF080064FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = CouponzoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CouponzoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Couponzone.app/Couponzone";
+			};
+			name = Release;
+		};
+		8873950726CFFF080064FA1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = CouponzoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CouponzoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Couponzone;
+			};
+			name = Debug;
+		};
+		8873950826CFFF080064FA1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PR4DRHG9SG;
+				INFOPLIST_FILE = CouponzoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CouponzoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Couponzone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		887394CE26CFFF060064FA1B /* Build configuration list for PBXProject "Couponzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				887394FE26CFFF080064FA1B /* Debug */,
+				887394FF26CFFF080064FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8873950026CFFF080064FA1B /* Build configuration list for PBXNativeTarget "Couponzone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8873950126CFFF080064FA1B /* Debug */,
+				8873950226CFFF080064FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8873950326CFFF080064FA1B /* Build configuration list for PBXNativeTarget "CouponzoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8873950426CFFF080064FA1B /* Debug */,
+				8873950526CFFF080064FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8873950626CFFF080064FA1B /* Build configuration list for PBXNativeTarget "CouponzoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8873950726CFFF080064FA1B /* Debug */,
+				8873950826CFFF080064FA1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		887394DF26CFFF060064FA1B /* Couponzone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				887394E026CFFF060064FA1B /* Couponzone.xcdatamodel */,
+			);
+			currentVersion = 887394E026CFFF060064FA1B /* Couponzone.xcdatamodel */;
+			path = Couponzone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 887394CB26CFFF060064FA1B /* Project object */;
+}
