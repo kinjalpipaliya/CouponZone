@@ -18,5 +18,12 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Circular Std Black.ttf</string>
+		<string>Circular Std Bold.ttf</string>
+		<string>Circular Std Book.ttf</string>
+		<string>Circular Std Medium.ttf</string>
+	</array>
 </dict>
 </plist>

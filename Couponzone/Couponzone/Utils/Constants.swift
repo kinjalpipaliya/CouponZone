@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+enum CellIdentifiers {
+    static let OfferCollectionViewCell = "OfferCollectionViewCell"
+}

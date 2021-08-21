@@ -8,22 +8,36 @@
 import UIKit
 
 class HomeViewController: UIViewController {
+    
+    @IBOutlet var collectionView: UICollectionView! {
+        didSet {
+            self.collectionView.register(UINib(nibName: CellIdentifiers.OfferCollectionViewCell, bundle: nil), forCellWithReuseIdentifier: CellIdentifiers.OfferCollectionViewCell)
+        }
+    }
+    
+    private let layout: UICollectionViewFlowLayout = {
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .horizontal
+        return layout
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.collectionView.setCollectionViewLayout(layout, animated: false)
+    }
+}
 
-        // Do any additional setup after loading the view.
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return 5
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CellIdentifiers.OfferCollectionViewCell, for: indexPath) as! OfferCollectionViewCell
+        return cell
     }
-    */
-
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: self.collectionView.frame.width, height: self.collectionView.frame.height)
+    }
 }

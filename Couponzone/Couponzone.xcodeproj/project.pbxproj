@@ -16,6 +16,22 @@
 		887394E626CFFF080064FA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 887394E426CFFF080064FA1B /* LaunchScreen.storyboard */; };
 		887394F126CFFF080064FA1B /* CouponzoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394F026CFFF080064FA1B /* CouponzoneTests.swift */; };
 		887394FC26CFFF080064FA1B /* CouponzoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394FB26CFFF080064FA1B /* CouponzoneUITests.swift */; };
+		8873951526D015210064FA1B /* Circular Std Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8873951126D015210064FA1B /* Circular Std Bold.ttf */; };
+		8873951626D015210064FA1B /* Circular Std Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8873951226D015210064FA1B /* Circular Std Book.ttf */; };
+		8873951726D015210064FA1B /* Circular Std Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8873951326D015210064FA1B /* Circular Std Medium.ttf */; };
+		8873951826D015210064FA1B /* Circular Std Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8873951426D015210064FA1B /* Circular Std Black.ttf */; };
+		8873952926D017A30064FA1B /* Vector (Stroke).png in Resources */ = {isa = PBXBuildFile; fileRef = 8873952826D017A30064FA1B /* Vector (Stroke).png */; };
+		8873952E26D017DC0064FA1B /* Vector.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873952D26D017DC0064FA1B /* Vector.png */; };
+		8873953326D017E50064FA1B /* Flipkart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873953226D017E50064FA1B /* Flipkart.png */; };
+		8873953826D017F90064FA1B /* Union.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873953726D017F90064FA1B /* Union.png */; };
+		8873953D26D018120064FA1B /* Stores.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873953C26D018120064FA1B /* Stores.png */; };
+		8873954226D018280064FA1B /* Verified.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873954126D018280064FA1B /* Verified.png */; };
+		8873954E26D01ABE0064FA1B /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873954D26D01ABE0064FA1B /* TabBarViewController.swift */; };
+		8873955326D01ADB0064FA1B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873955226D01ADB0064FA1B /* HomeViewController.swift */; };
+		8873955826D01B0F0064FA1B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873955726D01B0F0064FA1B /* Constants.swift */; };
+		8873955E26D01D120064FA1B /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */; };
+		8873955F26D01D120064FA1B /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */; };
+		8873956426D01E1B0064FA1B /* Frame 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873956326D01E1B0064FA1B /* Frame 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +67,22 @@
 		887394F726CFFF080064FA1B /* CouponzoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponzoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		887394FB26CFFF080064FA1B /* CouponzoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponzoneUITests.swift; sourceTree = "<group>"; };
 		887394FD26CFFF080064FA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8873951126D015210064FA1B /* Circular Std Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Bold.ttf"; sourceTree = "<group>"; };
+		8873951226D015210064FA1B /* Circular Std Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Book.ttf"; sourceTree = "<group>"; };
+		8873951326D015210064FA1B /* Circular Std Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Medium.ttf"; sourceTree = "<group>"; };
+		8873951426D015210064FA1B /* Circular Std Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circular Std Black.ttf"; sourceTree = "<group>"; };
+		8873952826D017A30064FA1B /* Vector (Stroke).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Vector (Stroke).png"; sourceTree = "<group>"; };
+		8873952D26D017DC0064FA1B /* Vector.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Vector.png; sourceTree = "<group>"; };
+		8873953226D017E50064FA1B /* Flipkart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flipkart.png; sourceTree = "<group>"; };
+		8873953726D017F90064FA1B /* Union.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Union.png; sourceTree = "<group>"; };
+		8873953C26D018120064FA1B /* Stores.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stores.png; sourceTree = "<group>"; };
+		8873954126D018280064FA1B /* Verified.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Verified.png; sourceTree = "<group>"; };
+		8873954D26D01ABE0064FA1B /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		8873955226D01ADB0064FA1B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8873955726D01B0F0064FA1B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
+		8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
+		8873956326D01E1B0064FA1B /* Frame 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frame 1.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +133,11 @@
 		887394D526CFFF060064FA1B /* Couponzone */ = {
 			isa = PBXGroup;
 			children = (
-				887394D626CFFF060064FA1B /* AppDelegate.swift */,
-				887394D826CFFF060064FA1B /* SceneDelegate.swift */,
-				887394DA26CFFF060064FA1B /* ViewController.swift */,
-				887394DC26CFFF060064FA1B /* Main.storyboard */,
-				887394E226CFFF080064FA1B /* Assets.xcassets */,
-				887394E426CFFF080064FA1B /* LaunchScreen.storyboard */,
+				8873954626D019E60064FA1B /* View */,
+				8873952126D0154A0064FA1B /* Storyboards */,
+				8873952026D015370064FA1B /* ViewControllers */,
+				8873951C26D015290064FA1B /* Utils */,
+				8873950F26D0150B0064FA1B /* Resources */,
 				887394E726CFFF080064FA1B /* Info.plist */,
 				887394DF26CFFF060064FA1B /* Couponzone.xcdatamodeld */,
 			);
@@ -129,6 +160,95 @@
 				887394FD26CFFF080064FA1B /* Info.plist */,
 			);
 			path = CouponzoneUITests;
+			sourceTree = "<group>";
+		};
+		8873950F26D0150B0064FA1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				887394E226CFFF080064FA1B /* Assets.xcassets */,
+				8873956326D01E1B0064FA1B /* Frame 1.png */,
+				8873952826D017A30064FA1B /* Vector (Stroke).png */,
+				8873953226D017E50064FA1B /* Flipkart.png */,
+				8873953C26D018120064FA1B /* Stores.png */,
+				8873953726D017F90064FA1B /* Union.png */,
+				8873954126D018280064FA1B /* Verified.png */,
+				8873952D26D017DC0064FA1B /* Vector.png */,
+				8873951026D015140064FA1B /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8873951026D015140064FA1B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8873951426D015210064FA1B /* Circular Std Black.ttf */,
+				8873951126D015210064FA1B /* Circular Std Bold.ttf */,
+				8873951226D015210064FA1B /* Circular Std Book.ttf */,
+				8873951326D015210064FA1B /* Circular Std Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8873951C26D015290064FA1B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8873955726D01B0F0064FA1B /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8873952026D015370064FA1B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				887394D626CFFF060064FA1B /* AppDelegate.swift */,
+				887394D826CFFF060064FA1B /* SceneDelegate.swift */,
+				887394DA26CFFF060064FA1B /* ViewController.swift */,
+				8873954D26D01ABE0064FA1B /* TabBarViewController.swift */,
+				8873955226D01ADB0064FA1B /* HomeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8873952126D0154A0064FA1B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				887394DC26CFFF060064FA1B /* Main.storyboard */,
+				887394E426CFFF080064FA1B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		8873954626D019E60064FA1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8873954726D019F20064FA1B /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8873954726D019F20064FA1B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8873954926D01A020064FA1B /* CollectionViewCells */,
+				8873954826D019F90064FA1B /* TableViewCells */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8873954826D019F90064FA1B /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8873954926D01A020064FA1B /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */,
+				8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +354,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8873951726D015210064FA1B /* Circular Std Medium.ttf in Resources */,
+				8873954226D018280064FA1B /* Verified.png in Resources */,
+				8873953D26D018120064FA1B /* Stores.png in Resources */,
+				8873951826D015210064FA1B /* Circular Std Black.ttf in Resources */,
+				8873953326D017E50064FA1B /* Flipkart.png in Resources */,
+				8873952926D017A30064FA1B /* Vector (Stroke).png in Resources */,
+				8873956426D01E1B0064FA1B /* Frame 1.png in Resources */,
 				887394E626CFFF080064FA1B /* LaunchScreen.storyboard in Resources */,
+				8873953826D017F90064FA1B /* Union.png in Resources */,
 				887394E326CFFF080064FA1B /* Assets.xcassets in Resources */,
+				8873952E26D017DC0064FA1B /* Vector.png in Resources */,
+				8873951526D015210064FA1B /* Circular Std Bold.ttf in Resources */,
+				8873951626D015210064FA1B /* Circular Std Book.ttf in Resources */,
 				887394DE26CFFF060064FA1B /* Main.storyboard in Resources */,
+				8873955F26D01D120064FA1B /* OfferCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +394,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				887394DB26CFFF060064FA1B /* ViewController.swift in Sources */,
+				8873955E26D01D120064FA1B /* OfferCollectionViewCell.swift in Sources */,
 				887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */,
 				887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */,
+				8873954E26D01ABE0064FA1B /* TabBarViewController.swift in Sources */,
+				8873955826D01B0F0064FA1B /* Constants.swift in Sources */,
 				887394E126CFFF060064FA1B /* Couponzone.xcdatamodeld in Sources */,
+				8873955326D01ADB0064FA1B /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
