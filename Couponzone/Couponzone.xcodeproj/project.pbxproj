@@ -34,6 +34,9 @@
 		8873956426D01E1B0064FA1B /* Frame 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873956326D01E1B0064FA1B /* Frame 1.png */; };
 		8873956A26D4058C0064FA1B /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873956826D4058C0064FA1B /* CouponTableViewCell.swift */; };
 		8873956B26D4058C0064FA1B /* CouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873956926D4058C0064FA1B /* CouponTableViewCell.xib */; };
+		8873957126D41D560064FA1B /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873956F26D41D550064FA1B /* BrandCollectionViewCell.swift */; };
+		8873957226D41D560064FA1B /* BrandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873957026D41D560064FA1B /* BrandCollectionViewCell.xib */; };
+		8873957726D41E3A0064FA1B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873957626D41E3A0064FA1B /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		8873956326D01E1B0064FA1B /* Frame 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frame 1.png"; sourceTree = "<group>"; };
 		8873956826D4058C0064FA1B /* CouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
 		8873956926D4058C0064FA1B /* CouponTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponTableViewCell.xib; sourceTree = "<group>"; };
+		8873956F26D41D550064FA1B /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
+		8873957026D41D560064FA1B /* BrandCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCollectionViewCell.xib; sourceTree = "<group>"; };
+		8873957626D41E3A0064FA1B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,6 +215,7 @@
 				887394DA26CFFF060064FA1B /* ViewController.swift */,
 				8873954D26D01ABE0064FA1B /* TabBarViewController.swift */,
 				8873955226D01ADB0064FA1B /* HomeViewController.swift */,
+				8873957626D41E3A0064FA1B /* StoreViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -253,6 +260,8 @@
 			children = (
 				8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */,
 				8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */,
+				8873956F26D41D550064FA1B /* BrandCollectionViewCell.swift */,
+				8873957026D41D560064FA1B /* BrandCollectionViewCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -373,6 +382,7 @@
 				8873952E26D017DC0064FA1B /* Vector.png in Resources */,
 				8873951526D015210064FA1B /* Circular Std Bold.ttf in Resources */,
 				8873951626D015210064FA1B /* Circular Std Book.ttf in Resources */,
+				8873957226D41D560064FA1B /* BrandCollectionViewCell.xib in Resources */,
 				887394DE26CFFF060064FA1B /* Main.storyboard in Resources */,
 				8873955F26D01D120064FA1B /* OfferCollectionViewCell.xib in Resources */,
 				8873956B26D4058C0064FA1B /* CouponTableViewCell.xib in Resources */,
@@ -402,10 +412,12 @@
 			files = (
 				887394DB26CFFF060064FA1B /* ViewController.swift in Sources */,
 				8873955E26D01D120064FA1B /* OfferCollectionViewCell.swift in Sources */,
+				8873957726D41E3A0064FA1B /* StoreViewController.swift in Sources */,
 				887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */,
 				887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */,
 				8873954E26D01ABE0064FA1B /* TabBarViewController.swift in Sources */,
 				8873955826D01B0F0064FA1B /* Constants.swift in Sources */,
+				8873957126D41D560064FA1B /* BrandCollectionViewCell.swift in Sources */,
 				8873956A26D4058C0064FA1B /* CouponTableViewCell.swift in Sources */,
 				887394E126CFFF060064FA1B /* Couponzone.xcdatamodeld in Sources */,
 				8873955326D01ADB0064FA1B /* HomeViewController.swift in Sources */,
