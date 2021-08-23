@@ -15,6 +15,12 @@ class HomeViewController: UIViewController {
         }
     }
     
+    @IBOutlet var tableView: UITableView! {
+        didSet {
+            self.tableView.register(UINib(nibName: CellIdentifiers.CouponTableViewCell, bundle: nil), forCellReuseIdentifier: CellIdentifiers.CouponTableViewCell)
+        }
+    }
+    
     private let layout: UICollectionViewFlowLayout = {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
@@ -24,6 +30,7 @@ class HomeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.collectionView.setCollectionViewLayout(layout, animated: false)
+        self.tableView.separatorStyle = .none
     }
 }
 
@@ -38,6 +45,16 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: self.collectionView.frame.width, height: self.collectionView.frame.height)
+        return CGSize(width: self.collectionView.frame.width-50, height: self.collectionView.frame.height)
+    }
+}
+extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.CouponTableViewCell, for: indexPath) as! CouponTableViewCell
+        return cell
     }
 }

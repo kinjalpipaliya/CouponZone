@@ -32,6 +32,8 @@
 		8873955E26D01D120064FA1B /* OfferCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */; };
 		8873955F26D01D120064FA1B /* OfferCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */; };
 		8873956426D01E1B0064FA1B /* Frame 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8873956326D01E1B0064FA1B /* Frame 1.png */; };
+		8873956A26D4058C0064FA1B /* CouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873956826D4058C0064FA1B /* CouponTableViewCell.swift */; };
+		8873956B26D4058C0064FA1B /* CouponTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873956926D4058C0064FA1B /* CouponTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +85,8 @@
 		8873955C26D01D120064FA1B /* OfferCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferCollectionViewCell.swift; sourceTree = "<group>"; };
 		8873955D26D01D120064FA1B /* OfferCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OfferCollectionViewCell.xib; sourceTree = "<group>"; };
 		8873956326D01E1B0064FA1B /* Frame 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Frame 1.png"; sourceTree = "<group>"; };
+		8873956826D4058C0064FA1B /* CouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponTableViewCell.swift; sourceTree = "<group>"; };
+		8873956926D4058C0064FA1B /* CouponTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CouponTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +242,8 @@
 		8873954826D019F90064FA1B /* TableViewCells */ = {
 			isa = PBXGroup;
 			children = (
+				8873956826D4058C0064FA1B /* CouponTableViewCell.swift */,
+				8873956926D4058C0064FA1B /* CouponTableViewCell.xib */,
 			);
 			path = TableViewCells;
 			sourceTree = "<group>";
@@ -369,6 +375,7 @@
 				8873951626D015210064FA1B /* Circular Std Book.ttf in Resources */,
 				887394DE26CFFF060064FA1B /* Main.storyboard in Resources */,
 				8873955F26D01D120064FA1B /* OfferCollectionViewCell.xib in Resources */,
+				8873956B26D4058C0064FA1B /* CouponTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +406,7 @@
 				887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */,
 				8873954E26D01ABE0064FA1B /* TabBarViewController.swift in Sources */,
 				8873955826D01B0F0064FA1B /* Constants.swift in Sources */,
+				8873956A26D4058C0064FA1B /* CouponTableViewCell.swift in Sources */,
 				887394E126CFFF060064FA1B /* Couponzone.xcdatamodeld in Sources */,
 				8873955326D01ADB0064FA1B /* HomeViewController.swift in Sources */,
 			);

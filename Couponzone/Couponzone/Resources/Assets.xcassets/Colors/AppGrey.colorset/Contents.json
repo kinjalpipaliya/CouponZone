@@ -5,9 +5,9 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0xEC",
-          "green" : "0x14",
-          "red" : "0x59"
+          "blue" : "0xF0",
+          "green" : "0xEC",
+          "red" : "0xED"
         }
       },
       "idiom" : "universal"
@@ -23,9 +23,9 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0xEC",
-          "green" : "0x14",
-          "red" : "0x59"
+          "blue" : "0xF0",
+          "green" : "0xEC",
+          "red" : "0xED"
         }
       },
       "idiom" : "universal"
@@ -35,9 +35,9 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.925",
-          "green" : "0.078",
-          "red" : "0.349"
+          "blue" : "0.941",
+          "green" : "0.925",
+          "red" : "0.929"
         }
       },
       "idiom" : "iphone"
@@ -53,9 +53,9 @@
         "color-space" : "srgb",
         "components" : {
           "alpha" : "1.000",
-          "blue" : "0.925",
-          "green" : "0.078",
-          "red" : "0.349"
+          "blue" : "0.941",
+          "green" : "0.925",
+          "red" : "0.929"
         }
       },
       "idiom" : "iphone"

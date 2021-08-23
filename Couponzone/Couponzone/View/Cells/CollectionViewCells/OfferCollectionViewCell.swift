@@ -8,8 +8,14 @@
 import UIKit
 
 class OfferCollectionViewCell: UICollectionViewCell {
-
+    
+    @IBOutlet var offerImageView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+    }
+    
+    override func draw(_ rect: CGRect) {
+        self.offerImageView.layer.cornerRadius = 8
     }
 }

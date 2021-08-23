@@ -17,19 +17,22 @@
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 1.png" translatesAutoresizingMaskIntoConstraints="NO" id="nwr-Rk-msy">
-                        <rect key="frame" x="10" y="5" width="259" height="129"/>
+                        <rect key="frame" x="0.0" y="0.0" width="269" height="139"/>
                     </imageView>
                 </subviews>
             </view>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <constraints>
-                <constraint firstItem="nwr-Rk-msy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="OWh-QI-b73"/>
+                <constraint firstItem="nwr-Rk-msy" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="OWh-QI-b73"/>
                 <constraint firstAttribute="trailing" secondItem="nwr-Rk-msy" secondAttribute="trailing" constant="10" id="kro-56-Quk"/>
-                <constraint firstItem="nwr-Rk-msy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="lB3-Wq-2wW"/>
-                <constraint firstAttribute="bottom" secondItem="nwr-Rk-msy" secondAttribute="bottom" constant="5" id="nZ7-fg-agH"/>
+                <constraint firstItem="nwr-Rk-msy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lB3-Wq-2wW"/>
+                <constraint firstAttribute="bottom" secondItem="nwr-Rk-msy" secondAttribute="bottom" id="nZ7-fg-agH"/>
             </constraints>
             <size key="customSize" width="279" height="139"/>
-            <point key="canvasLocation" x="297.82608695652175" y="109.48660714285714"/>
+            <connections>
+                <outlet property="offerImageView" destination="nwr-Rk-msy" id="gKZ-GL-cay"/>
+            </connections>
+            <point key="canvasLocation" x="141" y="151"/>
         </collectionViewCell>
     </objects>
     <resources>

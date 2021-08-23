@@ -9,4 +9,5 @@ import Foundation
 
 enum CellIdentifiers {
     static let OfferCollectionViewCell = "OfferCollectionViewCell"
+    static let CouponTableViewCell = "CouponTableViewCell"
 }

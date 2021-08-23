@@ -38,8 +38,8 @@
                                 </constraints>
                             </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="F4U-7s-7BK">
-                                <rect key="frame" x="20" y="150" width="374" height="161.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="20" y="160" width="374" height="161.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="lWI-HE-npO">
                                     <size key="itemSize" width="128" height="128"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
@@ -53,18 +53,22 @@
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coupons" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EfF-qg-gfh">
-                                <rect key="frame" x="20" y="326.5" width="75" height="23"/>
+                                <rect key="frame" x="20" y="336.5" width="75" height="23"/>
                                 <fontDescription key="fontDescription" name="CircularStd-Bold" family="Circular Std" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="I1B-Nv-Bfz">
-                                <rect key="frame" x="20" y="364.5" width="374" height="438.5"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <rect key="frame" x="20" y="374.5" width="374" height="428.5"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="6bn-IO-TW0"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="TGB-0b-aoo"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.89803921568627454" green="0.89803921568627454" blue="0.89803921568627454" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="amK-Pd-6YY" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.15625" id="FSn-1J-aSi"/>
                             <constraint firstItem="F4U-7s-7BK" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.18" id="JEi-7Z-fp8"/>
@@ -74,7 +78,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F4U-7s-7BK" secondAttribute="trailing" constant="20" id="V7i-C7-Ffa"/>
                             <constraint firstItem="F4U-7s-7BK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yq8-ra-xoK"/>
                             <constraint firstItem="I1B-Nv-Bfz" firstAttribute="top" secondItem="EfF-qg-gfh" secondAttribute="bottom" constant="15" id="ahZ-XD-UUQ"/>
-                            <constraint firstItem="F4U-7s-7BK" firstAttribute="top" secondItem="amK-Pd-6YY" secondAttribute="bottom" constant="10" id="ksm-rs-t4Y"/>
+                            <constraint firstItem="F4U-7s-7BK" firstAttribute="top" secondItem="amK-Pd-6YY" secondAttribute="bottom" constant="20" id="ksm-rs-t4Y"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I1B-Nv-Bfz" secondAttribute="trailing" constant="20" id="pxz-ul-s6a"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="amK-Pd-6YY" secondAttribute="trailing" id="sgj-ed-sUH"/>
                             <constraint firstItem="amK-Pd-6YY" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="w1i-LA-5j1"/>
@@ -85,11 +89,12 @@
                     <tabBarItem key="tabBarItem" title="Home" image="Vector.png" id="a3o-3B-yjJ"/>
                     <connections>
                         <outlet property="collectionView" destination="F4U-7s-7BK" id="e55-9H-JDZ"/>
+                        <outlet property="tableView" destination="I1B-Nv-Bfz" id="a1y-bb-pnk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-777" y="788"/>
+            <point key="canvasLocation" x="-778.26086956521749" y="787.5"/>
         </scene>
         <!--Tab Bar View Controller-->
         <scene sceneID="jr8-qh-zzp">
