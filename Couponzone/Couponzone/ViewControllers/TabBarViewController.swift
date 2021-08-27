@@ -11,5 +11,7 @@ class TabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.tabBar.layer.cornerRadius = 15
+        self.tabBar.layer.masksToBounds = true
     }
 }

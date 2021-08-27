@@ -55,6 +55,15 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: CellIdentifiers.CouponTableViewCell, for: indexPath) as! CouponTableViewCell
+        cell.selectionStyle = .none
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: ViewControllerIdentifiers.BrandDetailsViewController) as! BrandDetailsViewController
+        vc.modalPresentationStyle = .pageSheet
+        self.present(vc, animated: true) {
+            print("Opened!!")
+        }
     }
 }

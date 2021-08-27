@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		884E251226D8F4D80059AC7F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E251126D8F4D80059AC7F /* UIView+Extension.swift */; };
+		884E251D26D8FDF90059AC7F /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E251C26D8FDF90059AC7F /* UIColor+Extension.swift */; };
+		884E253126D90EFD0059AC7F /* CustomSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E253026D90EFD0059AC7F /* CustomSegmentedControl.swift */; };
+		884E253726D90FA00059AC7F /* SpecificBradDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884E253626D90FA00059AC7F /* SpecificBradDetailsViewController.swift */; };
 		887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394D626CFFF060064FA1B /* AppDelegate.swift */; };
 		887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394D826CFFF060064FA1B /* SceneDelegate.swift */; };
 		887394DB26CFFF060064FA1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 887394DA26CFFF060064FA1B /* ViewController.swift */; };
@@ -37,6 +41,7 @@
 		8873957126D41D560064FA1B /* BrandCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873956F26D41D550064FA1B /* BrandCollectionViewCell.swift */; };
 		8873957226D41D560064FA1B /* BrandCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8873957026D41D560064FA1B /* BrandCollectionViewCell.xib */; };
 		8873957726D41E3A0064FA1B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8873957626D41E3A0064FA1B /* StoreViewController.swift */; };
+		88932E5326D8ED2A00679FF0 /* BrandDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88932E5226D8ED2A00679FF0 /* BrandDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		884E251126D8F4D80059AC7F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		884E251C26D8FDF90059AC7F /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		884E253026D90EFD0059AC7F /* CustomSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControl.swift; sourceTree = "<group>"; };
+		884E253626D90FA00059AC7F /* SpecificBradDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificBradDetailsViewController.swift; sourceTree = "<group>"; };
 		887394D326CFFF060064FA1B /* Couponzone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Couponzone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		887394D626CFFF060064FA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		887394D826CFFF060064FA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +102,7 @@
 		8873956F26D41D550064FA1B /* BrandCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandCollectionViewCell.swift; sourceTree = "<group>"; };
 		8873957026D41D560064FA1B /* BrandCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BrandCollectionViewCell.xib; sourceTree = "<group>"; };
 		8873957626D41E3A0064FA1B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		88932E5226D8ED2A00679FF0 /* BrandDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		884E251026D8F4B10059AC7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				884E251126D8F4D80059AC7F /* UIView+Extension.swift */,
+				884E251C26D8FDF90059AC7F /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		884E253526D90F220059AC7F /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				884E253026D90EFD0059AC7F /* CustomSegmentedControl.swift */,
+			);
+			path = CustomClasses;
+			sourceTree = "<group>";
+		};
 		887394CA26CFFF060064FA1B = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +229,8 @@
 		8873951C26D015290064FA1B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				884E253526D90F220059AC7F /* CustomClasses */,
+				884E251026D8F4B10059AC7F /* Extensions */,
 				8873955726D01B0F0064FA1B /* Constants.swift */,
 			);
 			path = Utils;
@@ -216,6 +245,8 @@
 				8873954D26D01ABE0064FA1B /* TabBarViewController.swift */,
 				8873955226D01ADB0064FA1B /* HomeViewController.swift */,
 				8873957626D41E3A0064FA1B /* StoreViewController.swift */,
+				88932E5226D8ED2A00679FF0 /* BrandDetailsViewController.swift */,
+				884E253626D90FA00059AC7F /* SpecificBradDetailsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -411,11 +442,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				887394DB26CFFF060064FA1B /* ViewController.swift in Sources */,
+				884E251226D8F4D80059AC7F /* UIView+Extension.swift in Sources */,
 				8873955E26D01D120064FA1B /* OfferCollectionViewCell.swift in Sources */,
 				8873957726D41E3A0064FA1B /* StoreViewController.swift in Sources */,
 				887394D726CFFF060064FA1B /* AppDelegate.swift in Sources */,
 				887394D926CFFF060064FA1B /* SceneDelegate.swift in Sources */,
+				884E253726D90FA00059AC7F /* SpecificBradDetailsViewController.swift in Sources */,
 				8873954E26D01ABE0064FA1B /* TabBarViewController.swift in Sources */,
+				884E251D26D8FDF90059AC7F /* UIColor+Extension.swift in Sources */,
+				884E253126D90EFD0059AC7F /* CustomSegmentedControl.swift in Sources */,
+				88932E5326D8ED2A00679FF0 /* BrandDetailsViewController.swift in Sources */,
 				8873955826D01B0F0064FA1B /* Constants.swift in Sources */,
 				8873957126D41D560064FA1B /* BrandCollectionViewCell.swift in Sources */,
 				8873956A26D4058C0064FA1B /* CouponTableViewCell.swift in Sources */,
@@ -596,15 +632,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PR4DRHG9SG;
 				INFOPLIST_FILE = Couponzone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Couponzone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -615,15 +654,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PR4DRHG9SG;
 				INFOPLIST_FILE = Couponzone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Couponzone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

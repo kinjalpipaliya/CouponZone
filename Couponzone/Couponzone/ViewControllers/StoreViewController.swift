@@ -40,4 +40,9 @@ extension StoreViewController: UICollectionViewDelegate, UICollectionViewDataSou
         let padding: CGFloat = 10
         return CGSize(width: (self.collectionView.frame.width/2)-padding, height: 60)
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let vc = storyboard?.instantiateViewController(withIdentifier: ViewControllerIdentifiers.SpecificBradDetailsViewController) as! SpecificBradDetailsViewController
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }

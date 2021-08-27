@@ -12,3 +12,8 @@ enum CellIdentifiers {
     static let CouponTableViewCell = "CouponTableViewCell"
     static let BrandCollectionViewCell = "BrandCollectionViewCell"
 }
+
+enum ViewControllerIdentifiers {
+    static let BrandDetailsViewController = "BrandDetailsViewController"
+    static let SpecificBradDetailsViewController = "SpecificBradDetailsViewController"
+}
